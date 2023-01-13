@@ -41,7 +41,7 @@ for (const key in COLOR_CODES) {
 const makeAbsoluteLinks = (main) => {
   main.querySelectorAll('a').forEach((a) => {
     if (a.href.startsWith('/')) {
-      const u = new URL(a.href, 'https://venia-jam--hlxsites.hlx3.page/');
+      const u = new URL(a.href, 'https://main--venia-jam--bbtechd.hlx.page/');
       a.href = u.toString();
     }
   });
